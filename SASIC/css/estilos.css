@@ -1,0 +1,171 @@
+.container{
+	margin:0px auto;
+	width:100%;
+	overflow: hide;
+
+}
+
+body{
+	color:#333333;
+	font-family: "Lucida Sans Unicode", "Lucida grande", sans-serif;
+}
+
+/* ########################################### MEEEEENU ############################## */
+
+nav{
+	position:relative;
+}
+
+nav ul{
+	float:right;
+	padding:0px;
+}
+
+nav img{
+	left:0px;
+	padding-left:10px;
+}
+
+.menu{
+list-style:none;  
+float:left;
+top:0;
+margin:0;
+padding:0;
+width:100%;
+background-color: black;
+position:fixed; 
+}
+
+.menu li{
+position:relative; 
+float:left;  
+}
+
+.menu li a{
+	color:white; 
+	text-decoration:none;
+	text-align: center; 
+	padding: 24px 16px; 
+	display:block;
+}
+
+.active {
+	background: #333;
+}	
+
+
+.menu li a:hover{
+background:#232323; 
+color:#fff;
+transition:0.5s;
+z-index: 1000;  
+}
+
+
+
+
+.menu li  ul{
+	position:absolute; 
+	top:63px; 
+	left:0px;
+	background-color:black;
+	display:none; 
+	padding: 0px;
+	margin:0px;
+}
+
+
+
+
+
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+
+
+.menu li ul a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width:86px;
+}
+
+
+/* ########################################### */ 
+/* #################FOOTER################# */
+
+footer {
+	position:relative;
+	top:840px;
+	background-color:#232323;
+	overflow:hidden;
+	max-height: 50px;
+}
+
+
+footer ul li{
+	display: inline-block;
+	margin:20px;
+}
+
+footer .social img{
+	width:40px;
+	height:40px;
+	position:absolute;
+	bottom:5px;
+}
+
+footer .social a{
+	margin-left:20px;
+}
+
+footer .endereco{
+	position:absolute;
+	color:white;
+	top:9px;
+	left:590px;
+	
+	
+}
+
+footer .endereco span{
+	color:#232323;
+}
+
+
+footer .email{
+	position:absolute;
+	color:white;
+	float:right;
+	right:5px;
+	top:9px;
+	
+}
+
+footer .email span{
+	float:right;
+}
+
+
+
+/* ###############Creditos################ */ 
+.creditos{
+	background-image: url(../img/background-footer.png);
+	position:absolute;
+	bottom:0px;
+	overflow:hide;
+	width:100%;
+
+}
+
+.creditos span{
+	color:white;
+}
+
+.creditos div{
+	text-align:center;
+/* ########################################### */ 
+
+
