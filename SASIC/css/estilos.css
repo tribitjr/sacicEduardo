@@ -14,6 +14,7 @@ body{
 
 nav{
 	position:relative;
+	z-index: 1000;
 }
 
 nav ul{
@@ -97,11 +98,12 @@ z-index: 1000;
 /* #################FOOTER################# */
 
 footer {
-	position:relative;
-	top:840px;
+	position:absolute;
+	bottom:28px;
 	background-color:#232323;
 	overflow:hidden;
 	max-height: 50px;
+	width:100%;
 }
 
 
@@ -125,7 +127,7 @@ footer .endereco{
 	position:absolute;
 	color:white;
 	top:9px;
-	left:590px;
+	left:48%;
 	
 	
 }
